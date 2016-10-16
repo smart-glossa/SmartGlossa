@@ -1,0 +1,206 @@
+
+/*home page css*/
+.head
+{
+padding-right: 200px;
+height:100px;
+
+}
+
+li
+{
+float: right;
+display: inline;
+padding-left:20px;
+}
+.active:hover
+{
+color:#ffcdd2;
+}
+.active
+{
+color:orange;
+}
+
+/*end*/
+
+/*specials page css*/
+
+.image,.para,.para1,.para2
+{
+	float: left;
+}
+.images
+{
+padding-left:200px;
+padding-top:70px;
+}
+#images1
+{
+padding-left:160px
+}
+
+
+.para,.para1,.para2
+{
+	font-size: 25;
+	padding:10px 10px 10px 10px;
+}
+.para1
+{
+background-color:pink;
+height:200px;
+}
+.para2
+{
+background-color:black;
+color:white;
+height:250px;
+}
+#join,#join1
+{
+font-size:15px;
+}
+#join1
+{
+padding-top:30px;
+}
+
+/*end css*/
+
+/* courses page css*/
+
+      .aa
+	{
+                background-image:url('../images/fr2.jpg');
+		padding-top: 70px;
+height:600px;
+
+	}
+	table
+	{
+		background-color: black;
+		color: #eeeeee;
+		padding-top: 10px;
+		padding-bottom: 70px;
+	}
+	td
+	{
+		padding-top: 40px;
+		font-size: 16;
+		padding-left: 70px;
+         padding-right:30px;
+
+
+	}
+	#a
+	{
+		font-size: 30px;
+		font-style: italic;
+		padding-top: 30px;
+		color:white;
+		text-align: center;
+	}
+#b
+{
+font-size:14px;
+padding-top:46px;
+text-align: center;
+}
+
+/* end css*/
+
+/*quotes css*/
+
+.table2,.table3,.table4
+{
+	float: left;
+	width: 400px;
+	height: 400px;
+	font-size: 17;
+	font-family: cambria;
+}
+.title
+{
+padding-bottom: 30px;
+}
+.table3
+{
+	float:right;
+	padding-top: 10px;
+	padding-left: 60px;
+}
+.table2
+{
+	float: left;
+	padding-left: 20px;
+	padding-top: 30px;
+}
+.table1
+{
+	float: left;
+	padding-left: 120px;
+}
+#content
+{
+	padding-left:150px;
+}
+#content1
+{
+	padding-left:900px;
+
+}
+#content2
+{
+	padding-left:500px;
+	padding-top: 1px;
+}
+#content3
+{
+	padding-left:0px;
+	padding-top: 10px;
+}
+h3
+{
+	font-size: 25px;
+	font-weight: bold;
+}
+/*.para
+{
+	font-size: 18px;
+}
+/*end css*/
+
+/*contacts css*/
+
+
+	#box
+	{
+
+		background-color: black;
+		color: #eeeeee;
+		
+                height:550px;
+                width:550px;
+
+	}
+       #h1
+        {
+
+        padding-top: 30px;
+        font-size:30;
+        font-family: italic bold 12px/30px Georgia, serif;
+        font-style:italic;
+        color:white;
+        }
+	h6{
+		font-size:18px; 
+	}
+h2{
+		font-family: Brush Script MT;  
+		font-size:48px; 
+	}
+	input,textarea
+	{
+		color:black;
+	}

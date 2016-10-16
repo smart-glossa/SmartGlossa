@@ -1,0 +1,219 @@
+/*
+
+Template SMARTGLOSSA TEAM
+
+http://www.smartglossa.com
+
+*/
+
+body {
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: relative;
+  }
+
+
+html, body {
+     width: 100%;
+     overflow-x: hidden;
+  }
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.heading {
+  font-size: 20px;
+}
+.subheading {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+.bold {
+  font-weight: bold;
+}
+
+p {
+  line-height: 28px;
+  font-size: 25px;
+  font-family: times new Roman;
+}
+
+a {
+  outline: none !important;
+}
+
+hr {
+  width: 180px;
+  border-color: #CCC;
+}
+
+.section-title strong {
+	color: #00C6D7;
+  	font-size: 56px;
+}
+
+.section-title h1 {
+	font-size: 24px;
+}
+
+.section-title {
+  padding-bottom: 32px;
+}
+
+.medium-icon {
+  font-size: 32px !important;
+}
+
+#work,#about, #team, 
+#portfolio, #pricing, #contact {
+   padding-top: 100px;
+  padding-bottom: 300px;
+}
+
+
+
+
+/* ==========================================================================
+navigation section
+========================================================================== */
+.custom-navbar {
+    background: #4B4B4B;
+    margin-bottom: 0;
+}
+.custom-navbar .navbar-brand  {
+  color: black;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: Impact, Charcoal, sans-serif;
+}
+.custom-navbar .navbar-brand .navbar-toggle {
+    background: #00c6d7;
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+    }
+.custom-navbar .nav li a {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    }
+.custom-navbar .nav li a:hover {
+  	background: transparent;
+   color: #eeeeee;
+}
+.custom-navbar .nav > li > a:focus {
+  background-color: transparent;
+  color: #ffffff;
+  outline: none;
+}
+.custom-navbar .nav li.active > a {
+      color: red;
+    }
+.custom-navbar .navbar-toggle {
+        border: none;
+        padding-top: 10px;
+    }
+.custom-navbar .navbar-toggle .icon-bar {
+        background: #00c6d7;
+        border-color: transparent;
+    }
+@media(min-width:768px){
+    .custom-navbar {
+            background: #4B4B4B;
+            padding: 10px;
+            border-bottom: 0;
+            background: 0 0;
+         }
+    .custom-navbar.top-nav-collapse {
+            padding: 8px;
+            background: #4B4B4B;
+        }
+}
+.dd
+{
+  background-color: white;
+}
+
+/* ==========================================================================
+home section
+========================================================================== */
+#home {
+  background-size: cover;
+  background-position: center;
+  display: -webkit-flex;
+   height: 100vh;
+  text-align: center;
+  background-image: url("../images/ff.jpg");
+  width:1480px;
+  left: calc((100%-980px) * 0.5);
+  /*height: 400px;*/
+}
+
+
+
+/* ==========================================================================
+work section
+========================================================================== */
+#work {
+    text-align: center;
+    
+
+}
+
+
+/* ==========================================================================
+about section
+========================================================================== */
+
+/*.iii
+{
+  width:100%;
+  /*z-index: 50%
+  position:fixed;
+}*/
+
+  /*z-index: 100%;*/
+ 
+
+/* ==========================================================================
+pricing section
+========================================================================== */
+#pricing {
+  text-align: center;
+}
+#pricing h2 {
+  font-size: 52px;
+}
+
+/* ==========================================================================
+contact section
+========================================================================== */
+#contact {
+  background: #3B3B3B url('../images/v.jpg') no-repeat center center;
+  background-size: cover; 
+  /*height: 900px;
+  /*width:1080px;*/
+   
+}
+
+
+
+/* ==========================================================================
+media quires for mobile
+========================================================================== */
+@media (max-width: 440px) {
+  #home {
+    padding-top: 320px;
+    padding-bottom: 320px;
+  }
+  #home h1 {
+    font-size: 22px;
+  }
+  #home h3 {
+    font-size: 12px;
+  }
+}
