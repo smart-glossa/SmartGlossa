@@ -23,7 +23,7 @@ http://www.tooplate.com/view/2075-digital-team
 
 
 <script src="js/jquery-2.2.3.js"></script>
-<script src="js/detail.js"></script>
+<script src="detail.js"></script>
 
 <script>
 function validate () {
@@ -83,8 +83,8 @@ function validate () {
 				<li><a href="#work" class="smoothScroll">SPECIALS</a></li>
 				<li><a href="#about" class="smoothScroll">COURSES</a>
 				<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
-				<li><a href="#"><img src="images/fac.png"/></a></li>
-				<li><a href="#"><img src="images/tw.png"/></a></li>
+				<li><a href="https://www.facebook.com/smartglossapage/"><img src="images/fac.png"/></a></li>
+				<li><a href="https://twitter.com/SmartGlossa"><img src="images/tw.png"/></a></li>
 			</ul>
 		</div>
 
@@ -120,7 +120,7 @@ function validate () {
 		</div>
 	</div>
 	<div id="images1">
-		<div class="image">
+		<div class="image" id="image">
 			<img src="images/ph1.jpg" width="250" height="300" />
 		</div>
 		<div class="para">
@@ -151,8 +151,8 @@ function validate () {
 			<th id="a" colspan=2><b>COURSES DETAILS</b></th>
 		</tr>
 		<tr>
-			<td id="b">C,C++ and JAVA Courses</td>
-			<td id="b">2 Months</td>
+			<td >C,C++ and JAVA Courses</td>
+			<td >2 Months</td>
 		</tr>
 		<tr>
 			<td>Web Development Courses</td>
@@ -175,9 +175,8 @@ function validate () {
 		</tr>
 		</table>
 		</center>
-
-
 </div>
+
 <center><h3>Quotes</h3></center></br>
 <div id="content">
 	<div id="content3">
@@ -189,14 +188,16 @@ function validate () {
 <img src="images/fr4.png" width="25" height="25" /></div>
 	</div>
 	<div class="table2">
-	 <p>
+	 <center>
 	 <p class="para" >We cannot Solve our problems with</br>
 	 the same thinking we used when we</br>
 	 created them.</p>
 	 <p style="padding-top:280px;font-family:cursive;font-size: 20px;"><b>Albert Einstein</b>,Scientist</p>
+	</center>
 </div>
 </br>
 <div class="table1">
+	<center>
 			<p class="para">Creativity is just connecting things</br>
 			when you ask creative people how</br>
 			they did something,they feel a little</br>
@@ -206,10 +207,12 @@ function validate () {
 			because they were able to connect</br>
 			experiences they're had and</br>
 			synthesize new things
-			<p style="padding-top:10px; font-family:cursive; "><b>Steve Jobs</b>,Apple</p>
+			<p style="padding-top:10px; font-family:cursive; font-size: 20px;"><b>Steve Jobs</b>,Apple</p>
 		</p>
+	</center>
 	</div>
 	<div class="table3">
+		<center>
 		<p class="para">Software innovtion like almost</br>
 		every other kind of innovation,</br>
 		requires the ability to colloborate and</br>
@@ -217,7 +220,8 @@ function validate () {
 		sit down and talk with customers and</br>
 		get their feedback and understand</br>
 		their needs</p>
-		<p style="padding-top:250px;font-family: cursive;"><b>Bill Gates,Microsoft</b></p>
+		<p style="padding-top:270px;font-family: cursive;font-size: 20px;"><b>Bill Gates</b>,Microsoft</p>
+	</center>
 </div>
 </section>
 
@@ -235,26 +239,29 @@ function validate () {
 		
 	<center>
 		<h2>Contact Us</h2>
-		<h6>14, First Floor,DGL Tower,<br>
-		Marthandapuram,Second Street,<br>
-		Alangudi Road,Pudukkottai-622001.<br>
-		Email:contact@Smartglossa.com<br>
-		Phone:9944824874/9500239154</h6>
+		<h6>14, First Floor,DGL Tower,</h6>
+		<h6>Marthandapuram,Second Street,</h6>
+		<h6>Alangudi Road,Pudukkottai-622001.</h6>
+		<h6>Email:contact@Smartglossa.com,</h6>
+		<h6>Phone:9944824874/9500239154.</h6>
 		</center>
+		<div class="zz">
 		<table>
 			<tr><td><input type="text" id="Name" placeholder="Name" onkeypress="if ( !isNaN( String.fromCharCode(event.keyCode) ))  return false;" ></input></td>
 
 			</tr>
 					<tr><td><input type="text" id="Email" placeholder="Email"  ></input></td></tr>
-							<tr><td><input type="text" id="Phone" placeholder="phone" maxlength="10" onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) ))  return false;"></input></td></tr>
-									<tr><td><textarea type="text" id="Message" placeholder="comments"></textarea></td></tr>
-		</table>
+							<tr><td><input type="text" id="Phone" placeholder="phone" maxlength="10" onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) ))  return false;"></input></td></tr></table></div>
+			<div class="mm">
+			<textarea type="text" id="Message" placeholder="comments"></textarea>
+		
 		<button style="color: black" id="btn" onclick="validate()">send</button>
-                </center>
 	</div>
+           
+	</div>
+</center>
 	
 </section>
-
 
 
 <script src="js/jquery.js"></script>

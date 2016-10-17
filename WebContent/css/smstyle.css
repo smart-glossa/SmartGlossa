@@ -39,7 +39,9 @@ padding-top:70px;
 {
 padding-left:160px
 }
-
+#image{
+	margin-top: -60px;
+}
 
 .para,.para1,.para2
 {
@@ -74,20 +76,20 @@ padding-top:30px;
 	{
                 background-image:url('../images/fr2.jpg');
 		padding-top: 70px;
-height:600px;
+height:630px;
 
 	}
-	table
+	.aa table
 	{
 		background-color: black;
 		color: #eeeeee;
 		padding-top: 10px;
 		padding-bottom: 70px;
 	}
-	td
+	.aa td
 	{
 		padding-top: 40px;
-		font-size: 16;
+		font-size: 17px;
 		padding-left: 70px;
          padding-right:30px;
 
@@ -100,6 +102,7 @@ height:600px;
 		padding-top: 30px;
 		color:white;
 		text-align: center;
+		font-family: Brush Script MT;  
 	}
 #b
 {
@@ -147,7 +150,7 @@ padding-bottom: 30px;
 }
 #content1
 {
-	padding-left:900px;
+	padding-left:980px;
 
 }
 #content2
@@ -165,9 +168,9 @@ h3
 	font-size: 25px;
 	font-weight: bold;
 }
-/*.para
+.para
 {
-	font-size: 18px;
+	font-size: 20px;
 }
 /*end css*/
 
@@ -179,28 +182,46 @@ h3
 
 		background-color: black;
 		color: #eeeeee;
-		
-                height:550px;
-                width:550px;
+		height:550px;
+        width:550px;
 
 	}
-       #h1
-        {
-
-        padding-top: 30px;
-        font-size:30;
-        font-family: italic bold 12px/30px Georgia, serif;
-        font-style:italic;
-        color:white;
-        }
+      
 	h6{
 		font-size:18px; 
+		padding-top: 10px;
+
 	}
 h2{
 		font-family: Brush Script MT;  
 		font-size:48px; 
+		padding-top: 20px;
 	}
 	input,textarea
 	{
 		color:black;
 	}
+	.zz 
+	{
+		float: left;
+		padding-top: 20px;
+		padding-left: 60px;
+}
+.zz td
+{
+	padding-top: 10px;
+}
+
+	.mm
+	{
+		float: left;
+		padding-left: 10px;
+		padding-top: 30px;
+	}
+	.mm textarea
+	{
+		height: 100px;
+		width: 200px;
+		resize:none;
+	}
+    
