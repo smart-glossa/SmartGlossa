@@ -1,0 +1,102 @@
+body
+{
+	margin: 100px;
+}
+/*division one*/
+#image img
+	{
+		width: 70px;
+		height: 70px;
+		border-radius:70%;
+	}
+	#top
+	{
+		border: 2px solid blue;
+		height: 400px;
+	}
+
+/*same id,class using division*/
+.flower
+	{
+        margin-left: 70px;
+		width: 200px;
+	}
+	.flower img
+	{
+		padding-left: 10px;
+		border:100px;
+	}
+	.popup img
+	{
+
+     display: block;
+     padding-top: 10px;
+	}
+	.pop img
+	{
+
+     display: block;
+     padding-top: 10px;
+	}
+	
+	#picture,.popup
+	{
+		float: left;
+	}
+	.popup
+	{
+		margin-top: -30px;
+	}
+	#picture
+	{
+		margin: 10px;
+		border: 1px solid blue;
+		width: 160px;
+		height: 220px;
+		}
+    #picture img
+	{
+		width: 70px;
+		height: 70px;
+		padding:50px;
+		display: inline;
+	}
+	#picture p
+	{
+		color: red;
+		text-align: center;
+	}
+	#picture:hover
+	{
+		background-color: #bdbdbd;
+		color: black;
+	}
+	#image,#image1,#image2
+	{
+	opacity:0;	
+	}
+	.gallery
+	{
+		float: left;
+		padding-left: 20px;
+	}
+
+
+	/*second division*/
+	#image1 img
+	{
+		width: 70px;
+		height: 70px;
+		border-radius: 50%;
+	}
+	#image2 img
+	{
+		width: 70px;
+		height: 70px;
+		border-radius: 50%;
+	}
+	
+
+	
+	
+	
