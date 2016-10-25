@@ -1,0 +1,400 @@
+
+/*home page css*/
+header
+{
+height:70px; 
+}
+#be
+{
+	padding-left: 30px;
+	font-size: 30px;
+	margin-top: -30px;
+}
+#art #beone
+{
+	font-family: Algerian;
+	font-size: 35px;
+}
+#art2 li 
+{
+
+display: inline;
+padding-left: 20px;
+font-size: 20px;
+
+} 
+header #art
+{
+	float: left;
+	margin-left: 50px;
+	margin-top: -70px;
+}
+header #art2
+{
+	margin-left: 780px;
+	margin-top: 50px;
+}
+li a{
+	text-decoration: none;
+	color: black;
+}
+
+li img
+{
+	width: 30px;
+	height: 30px;
+}
+.active:hover
+{
+color:#ffcdd2;
+}
+.active
+{
+color:orange;
+}
+
+
+/*end*/
+
+/*specials page css*/
+.imagegallery
+{
+	max-height: 300px;
+}
+
+.image,.para,.para1,.para2
+{
+	float: left;
+}
+.images
+{
+padding-left:300px;
+padding-top:70px;
+}
+#images1
+{
+padding-left:250px
+}
+#image{
+	margin-top: -60px;
+}
+.images p
+{
+	text-align: center;
+	line-height: 0.8;
+}
+#images1 p
+{
+	text-align: center;
+	line-height: 0.7;
+	
+}
+.para1,.para2,.para
+{
+	font-size: 22px;
+	font-weight: 130px;
+	padding: 10px;
+}
+.para1
+{
+background-color:pink;
+height:200px;
+width: 190px;
+
+}
+.para2
+{
+background-color:black;
+color:white;
+height:230px;
+width: 190px;
+}
+#join,#join1
+{
+font-size:15px;
+}
+#join1
+{
+padding-top:30px;
+}
+
+/*end css*/
+
+/* courses page css*/
+
+      .course
+	{
+   background-image:url('../images/fr2.jpg');
+height:680px;
+margin-top: 600px;
+
+	}
+	.coursetable
+	{
+		padding-top: 80px;
+		margin-left: 400px;
+	}
+	.course table
+	{
+         
+		background-color: black;
+		color: #eeeeee;
+		padding-bottom: 70px;
+	}
+	.course td
+	{
+		padding-top: 40px;
+		font-size: 17px;
+		padding-left: 70px;
+         padding-right:30px;
+
+
+	}
+	#a
+	{
+		font-size: 30px;
+		font-style: italic;
+		padding-top: 30px;
+		color:white;
+		text-align: center;
+		font-family: Brush Script MT;  
+	}
+#b
+{
+font-size:14px;
+padding-top:46px;
+text-align: center;
+}
+
+/* end css*/
+
+/*details css*/
+#top
+	{
+
+		height: 600px;
+		margin-top: 100px;
+	
+	}
+/*division one*/
+#img img
+	{
+		width: 70px;
+		height: 70px;
+		
+	}
+	
+
+/*same id,class using division*/
+
+/*-------------first div------------*/
+.flower
+	{
+        margin-left: 70px;
+		width: 200px;
+	}
+	.flower img
+	{
+		width: 90px;
+		height: 90px;
+		padding-left: 15px;
+		border:100px;
+	}
+
+/*-------------second div------------*/
+	.popup img
+	{
+
+     display: block;
+     padding-top: 10px;
+	}
+
+/*-------------third div------------*/
+	.pop
+    {
+    	float: right;
+   margin-left: 193px;
+    }
+	.pop img
+	{
+
+     display: block;
+     padding-top: 10px;
+	}
+	
+	#picture,.popup
+	{
+		float: left;
+	}
+	.popup,.pop
+	{
+		margin-top: -35px;
+	}
+
+/*-------------center div------------*/
+	#picture
+	{
+        margin-top: -115px;
+	    margin-left: 79px;
+		border: 1px solid blue;
+		width: 175px;
+		height: 235px;
+		}
+    #picture img
+	{
+		width: 70px;
+		height: 70px;
+		padding:50px;
+		display: inline;
+	}
+	#picture p
+	{
+		margin-top: -30px;
+	   font-weight: bold;
+		text-align: center;
+		font-size: 20px;
+		font-family:lucida cligraphy;
+
+	}
+	.picture:hover
+	{
+		background-color:#f06292 ;
+		cursor:pointer;
+	}
+		.picture p:hover
+		{
+			color: white;
+		}
+	.pictureone:hover
+	{
+		background-color:#0091ea ;
+		cursor:pointer;
+	}
+		.pictureone p:hover
+		{
+			color: white ;
+		}
+     .picturetwo:hover
+	{
+		background-color:#00bfa5  ;
+		cursor:pointer;
+	}
+		.picturetwo p:hover
+		{
+			color: white ;
+		}
+		 .picturethree:hover
+	{
+		background-color:#ab47bc;
+		cursor:pointer;
+	}
+		.picturethree p:hover
+		{
+			color: white ;
+		}
+	#img,#img2,#img3,#img4
+	{
+	opacity:0;
+	}
+	.gallery
+	{
+		float: left;
+	]
+	}
+
+
+	/*second division*/
+	#img2 img
+	{
+		width: 70px;
+		height: 70px;
+		border-radius: 50%;
+	}
+	#img3 img
+	{
+		width: 70px;
+		height: 70px;
+		border-radius: 50%;
+	}
+	#img4 img
+	{
+		width: 70px;
+		height: 70px;
+		border-radius: 50%;
+	}
+	
+	
+
+/*end css*/
+
+/*contacts css*/
+
+
+	.contact
+	{
+       background-image: url("../images/fr3.jpg");
+
+   }
+   .addresstable
+   {
+   	margin-left: 400px;
+   	padding-top: 40px;
+        	padding-bottom: 70px;
+   }
+   .box
+   {   
+   			background-color: black;
+		color: #eeeeee;
+		height:530px;
+         width:530px;
+
+
+	}
+      
+	.box h3{
+		font-size:28px; 
+		padding-top: 20px;
+		text-align: center;
+
+	}
+    .box p{
+    	text-align: center;  
+		font-size:20px; 
+	    line-height: 0.7;
+	}
+	.box input,textarea
+	{
+		color:black;
+		outline: none;
+		border:none;
+	}
+	.add
+	{
+		float: left;
+		padding-top: 20px;
+		padding-left: 60px;
+}
+.add input
+{
+	padding-top: 10px;
+}
+
+	.command
+	{
+		float: left;
+		padding-left: 10px;
+		padding-top: 20px;
+	}
+	.command textarea
+	{
+		height: 85px;
+		width: 200px;
+		resize:none;
+	}
+	.command button
+	{
+		float: right;
+		margin-top: 110px;
+
+	}
+    
