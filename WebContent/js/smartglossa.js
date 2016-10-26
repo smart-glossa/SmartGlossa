@@ -95,7 +95,7 @@ var unorder=document.createElement("ul");
             var twi=document.createElement("IMG");
             var anchor=document.createElement("a");
             anchor.setAttribute("href","https://www.facebook.com/smartglossapage/");
-            twi.setAttribute("src","../images/fa.png");
+            twi.setAttribute("src","images/fa.png");
             anchor.appendChild(twi);
             list.appendChild(anchor);    
  
@@ -105,7 +105,7 @@ var unorder=document.createElement("ul");
             var face=document.createElement("IMG");
             var anchor=document.createElement("a");
             anchor.setAttribute("href","https://twitter.com/SmartGlossa");
-			face.setAttribute("src","../images/tw.png");
+			face.setAttribute("src","images/tw.png");
 			anchor.appendChild(face);
 			list.appendChild(anchor);
 
@@ -121,7 +121,7 @@ var unorder=document.createElement("ul");
             section.appendChild(front);
 
             var frontimg=document.createElement("img");
-            frontimg.setAttribute("src","../images/fr1.jpg");
+            frontimg.setAttribute("src","images/fr1.jpg");
             section.appendChild(frontimg);
 
 //******************* END *******************//
@@ -182,7 +182,7 @@ var unorder=document.createElement("ul");
     firstdiv.appendChild(imagediv);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/ch.jpg");
+    image.setAttribute("src","images/ch.jpg");
     image.style.width="230px";
     image.style.height="210px";
     imagediv.appendChild(image);
@@ -225,7 +225,7 @@ var unorder=document.createElement("ul");
     firstdiv.appendChild(imagediv);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/ph.jpg");
+    image.setAttribute("src","images/ph.jpg");
     image.style.width="270px";
     image.style.height="300px";
     imagediv.appendChild(image);
@@ -243,7 +243,7 @@ var unorder=document.createElement("ul");
     seconddiv.appendChild(imagediv);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/ph1.jpg");
+    image.setAttribute("src","images/ph1.jpg");
     image.style.width="270px";
     image.style.height="300px";
         image.style.marginTop="-40px";
@@ -287,7 +287,7 @@ var unorder=document.createElement("ul");
     seconddiv.appendChild(imagediv);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/com.jpg");
+    image.setAttribute("src","images/com.jpg");
     image.style.width="270px";
     image.style.height="220px";
     imagediv.appendChild(image);
@@ -458,11 +458,11 @@ top.appendChild(wholediv);
     fulldiv.appendChild(imagediv);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/js.png");
+    image.setAttribute("src","images/js.png");
     imagediv.appendChild(image);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/java.jpg");
+    image.setAttribute("src","images/java.jpg");
     imagediv.appendChild(image);
  
  var imagediv=document.createElement("DIV");
@@ -470,11 +470,11 @@ top.appendChild(wholediv);
     fulldiv.appendChild(imagediv);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/html.png");
+    image.setAttribute("src","images/html.png");
     imagediv.appendChild(image);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/css.jpg");
+    image.setAttribute("src","images/css.jpg");
     imagediv.appendChild(image);
 
     var imagediv=document.createElement("DIV");
@@ -482,11 +482,11 @@ top.appendChild(wholediv);
     fulldiv.appendChild(imagediv);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/php.jpg");
+    image.setAttribute("src","images/php.jpg");
     imagediv.appendChild(image);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/my.png");
+    image.setAttribute("src","images/my.png");
     imagediv.appendChild(image);
 
     var popimg=document.createElement("DIV");
@@ -497,7 +497,7 @@ top.appendChild(wholediv);
     wholediv.appendChild(popimg);
 
     var bigimg=document.createElement("IMG");
-    bigimg.setAttribute("src","../images/g.jpg");
+    bigimg.setAttribute("src","images/g.jpg");
     popimg.appendChild(bigimg);
 
     var textdiv=document.createElement("P");
@@ -520,11 +520,11 @@ top.appendChild(wholediv);
     fulldiv.appendChild(imagediv);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/web3.png");
+    image.setAttribute("src","images/web3.png");
     imagediv.appendChild(image);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/an2.jpg");
+    image.setAttribute("src","images/an2.jpg");
     imagediv.appendChild(image);
  
  var imagediv=document.createElement("DIV");
@@ -532,11 +532,11 @@ top.appendChild(wholediv);
     fulldiv.appendChild(imagediv);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/web1.jpg");
+    image.setAttribute("src","images/web1.jpg");
     imagediv.appendChild(image);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/web5.png");
+    image.setAttribute("src","images/web5.png");
     imagediv.appendChild(image);
 
     var imagediv=document.createElement("DIV");
@@ -544,11 +544,11 @@ top.appendChild(wholediv);
     fulldiv.appendChild(imagediv);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/an3.jpg");
+    image.setAttribute("src","images/an3.jpg");
     imagediv.appendChild(image);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/an4.jpg");
+    image.setAttribute("src","images/an4.jpg");
     imagediv.appendChild(image);
 
     var popimg=document.createElement("DIV");
@@ -559,7 +559,7 @@ top.appendChild(wholediv);
     wholediv.appendChild(popimg);
 
     var bigimg=document.createElement("IMG");
-    bigimg.setAttribute("src","../images/in2.jpg");
+    bigimg.setAttribute("src","images/in2.jpg");
     popimg.appendChild(bigimg);
 
     var textdiv=document.createElement("P");
@@ -583,11 +583,11 @@ top.appendChild(wholediv);
     fulldiv.appendChild(imagediv);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/gr.jpg");
+    image.setAttribute("src","images/gr.jpg");
     imagediv.appendChild(image);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/ap.png");
+    image.setAttribute("src","images/ap.png");
     imagediv.appendChild(image);
  
  var imagediv=document.createElement("DIV");
@@ -595,11 +595,11 @@ top.appendChild(wholediv);
     fulldiv.appendChild(imagediv);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/pr.jpg");
+    image.setAttribute("src","images/pr.jpg");
     imagediv.appendChild(image);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/a.jpg");
+    image.setAttribute("src","images/a.jpg");
     imagediv.appendChild(image);
 
      var imagediv=document.createElement("DIV");
@@ -607,11 +607,11 @@ top.appendChild(wholediv);
     fulldiv.appendChild(imagediv);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/te.png");
+    image.setAttribute("src","images/te.png");
     imagediv.appendChild(image);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/hr.jpg");
+    image.setAttribute("src","images/hr.jpg");
     imagediv.appendChild(image);
 
     var popimg=document.createElement("DIV");
@@ -622,7 +622,7 @@ top.appendChild(wholediv);
     wholediv.appendChild(popimg);
 
     var bigimg=document.createElement("IMG");
-    bigimg.setAttribute("src","../images/pla.jpg");
+    bigimg.setAttribute("src","images/pla.jpg");
     popimg.appendChild(bigimg);
 
     var textdiv=document.createElement("P");
@@ -647,11 +647,11 @@ top.appendChild(wholediv);
     fulldiv.appendChild(imagediv);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/off.jpg");
+    image.setAttribute("src","images/off.jpg");
     imagediv.appendChild(image);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/off2.jpg");
+    image.setAttribute("src","images/off2.jpg");
     imagediv.appendChild(image);
  
  var imagediv=document.createElement("DIV");
@@ -659,11 +659,11 @@ top.appendChild(wholediv);
     fulldiv.appendChild(imagediv);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/mm.jpg");
+    image.setAttribute("src","images/mm.jpg");
     imagediv.appendChild(image);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/bb.jpg");
+    image.setAttribute("src","images/bb.jpg");
     imagediv.appendChild(image);
 
 
@@ -672,11 +672,11 @@ top.appendChild(wholediv);
     fulldiv.appendChild(imagediv);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/k.jpg");
+    image.setAttribute("src","images/k.jpg");
     imagediv.appendChild(image);
 
     var image=document.createElement("IMG");
-    image.setAttribute("src","../images/z.jpg");
+    image.setAttribute("src","images/z.jpg");
     imagediv.appendChild(image);
  
 
@@ -688,7 +688,7 @@ top.appendChild(wholediv);
     wholediv.appendChild(popimg);
 
     var bigimg=document.createElement("IMG");
-    bigimg.setAttribute("src","../images/d.jpg");
+    bigimg.setAttribute("src","images/d.jpg");
     popimg.appendChild(bigimg);
 
     var textdiv=document.createElement("P");
