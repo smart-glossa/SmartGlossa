@@ -94,7 +94,7 @@ var unorder=document.createElement("ul");
             unorder.appendChild(list);
             var twi=document.createElement("IMG");
             var anchor=document.createElement("a");
-            anchor.setAttribute("href","");
+            anchor.setAttribute("href","https://www.facebook.com/smartglossapage/");
             twi.setAttribute("src","../images/fa.png");
             anchor.appendChild(twi);
             list.appendChild(anchor);    
@@ -104,7 +104,7 @@ var unorder=document.createElement("ul");
             unorder.appendChild(list);
             var face=document.createElement("IMG");
             var anchor=document.createElement("a");
-            anchor.setAttribute("href","");
+            anchor.setAttribute("href","https://twitter.com/SmartGlossa");
 			face.setAttribute("src","../images/tw.png");
 			anchor.appendChild(face);
 			list.appendChild(anchor);
@@ -121,7 +121,7 @@ var unorder=document.createElement("ul");
             section.appendChild(front);
 
             var frontimg=document.createElement("img");
-            frontimg.setAttribute("src","../images/fr1.JPG");
+            frontimg.setAttribute("src","../images/fr1.jpg");
             section.appendChild(frontimg);
 
 //******************* END *******************//
@@ -741,7 +741,7 @@ top.appendChild(wholediv);
      box.appendChild(para);
      
      var para=document.createElement("p");
-     var paratext=document.createTextNode("Email:contact@Smartglossa.com,");
+     var paratext=document.createTextNode("Email:contact@smartglossa.com,");
      para.appendChild(paratext);
      box.appendChild(para);
 
